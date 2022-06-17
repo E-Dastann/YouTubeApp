@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">YouTubeKotlin</string>
+    <string name="try_again">Try again</string>
+    <string name="title_example">Emotional Well-being Healing Practices for Children djkjdkjdhk hdjkdhjkdh kjdhkjdhkjhk jhdkjhdjkdhkj hdkj hdkjhdkjh</string>
+    <string name="playlist_extra_info_example">32 video series</string>
+    <string name="playlist">playlist</string>
+    <string name="video_series">\" video series\"</string>
+    <string name="video_title_example">exemple</string>
+    <string name="time">"time  "</string>
+    <string name="main_title"><![CDATA[Emotional Well-being & Healing Practices for Children]]></string>
+    <string name="second_title">In this series, we break down the impact of displacement, instability, violence, and trauma in children, and offer exercises to support children in their healing journey.</string>
+
+
+    <string name="test_mp3">"https://storage.googleapis.com/exoplayer-test-media-0/play.mp3"</string>
+    <string name="media_url_mp4">https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4</string>
+    <string name="myTestMp4">"https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4"</string>
+    <string name="text_video">HOW DISPLACEMENT INSTABILITY UNCERTAINTY AFFECT CHILDREN</string>
+    <string name="desc_video">Refugee children often have suffered many losses and because of that, they are grieving these losses they\'re grieving the loss of their home, the loss of the life they knew, the places where they were used to be and that they loved to go. The loss of their friends, and certainly the loss of their family members and loved ones. So naturally they\'re going to have sadness.</string>
+</resources>
