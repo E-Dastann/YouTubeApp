@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
+import com.example.youtubekotlin.core.extentions.showToast
 import com.example.youtubekotlin.core.network.result.Status
 import com.example.youtubekotlin.core.ui.BaseActivity
 import com.example.youtubekotlin.data.remote.model.Item
@@ -29,6 +30,7 @@ class ActivityVideo :
 
     override fun initViewModel() {
         initVM()
+        showToast("iuuuuu")
     }
 
     private fun initVM() {
@@ -40,6 +42,7 @@ class ActivityVideo :
 
                             viewModel.loading.postValue(false)
                             initRecyclerView(it.data.items)
+
                         } else {
                             Log.e("Error1", "error 1")
                         }
