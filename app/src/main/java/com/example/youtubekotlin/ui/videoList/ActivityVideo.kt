@@ -32,6 +32,7 @@ class ActivityVideo :
         initVM()
         showToast("iuuuuu")
         showToast("iuuuuu")
+        showToast("kgjfdsghfdsoihufdsho")
     }
 
     private fun initVM() {
