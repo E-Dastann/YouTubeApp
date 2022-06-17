@@ -31,6 +31,7 @@ class ActivityVideo :
     override fun initViewModel() {
         initVM()
         showToast("iuuuuu")
+        showToast("iuuuuu")
     }
 
     private fun initVM() {
