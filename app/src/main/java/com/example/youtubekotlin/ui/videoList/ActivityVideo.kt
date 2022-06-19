@@ -20,7 +20,6 @@ import com.example.youtubekotlin.utils.NetworkStatus
 import com.example.youtubekotlin.utils.NetworkStatusHelper
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
-
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.ui.PlayerView
 
@@ -105,7 +104,6 @@ class ActivityVideo :
         binding.back.setOnClickListener {
             onBackPressed()
         }
-
     }
 
     fun setUpPlayer() {
@@ -140,9 +138,8 @@ class ActivityVideo :
             Player.STATE_READY -> {
                 progressBar.visibility = View.INVISIBLE
             }
-
         }
-    }
 
+    }
 
 }
