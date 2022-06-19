@@ -8,4 +8,5 @@ class App: Application() {
     val repository: Repository by lazy {
         Repository()
     }
+
 }
