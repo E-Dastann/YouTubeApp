@@ -9,7 +9,7 @@ import com.example.youtubekotlin.databinding.ItemDetaileBinding
 
 class PlaylistDetailAdapter(
     private val list: List<Item>,
-    private val onItemClick: (itemsId: String, String, String) -> Unit?
+    private val onItemClick: (itemsId: String, title :String, desc :String) -> Unit?
 ) : RecyclerView.Adapter<PlaylistDetailAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -50,8 +50,9 @@ class PlaylistDetailAdapter(
             binding.timeTv.text = items.snippet.publishedAt.dropLast(10)
 
             itemView.setOnClickListener {
-                onItemClick(items.id, items.snippet.title, items.snippet.description)
 
+
+                onItemClick(items.snippet.resourceId.videoId, items.snippet.title, items.snippet.description)
 
             }
 

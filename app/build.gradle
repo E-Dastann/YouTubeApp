@@ -12,9 +12,10 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
         buildConfigField "String", "BASE_URL", "\"https://www.googleapis.com/youtube/v3/\""
         buildConfigField "String", "API_KEY", "\"AIzaSyB52ZCs_AIDZS7q0vZXPS8fJTGWVwtYkCI\""
+        buildConfigField "String", "BASE_YOUTUBE", "\"http://youtube.com/watch?v=\""
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -70,4 +71,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     // exoplayer
     implementation 'com.google.android.exoplayer:exoplayer:2.17.1'
+    //youTubeExtractor
+    implementation 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
 }

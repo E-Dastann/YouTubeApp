@@ -1,6 +1,8 @@
 package com.example.youtubekotlin.data.remote.model
 
-data class PlaylistItems(
+import com.example.youtubekotlin.data.remote.model.Item
+
+data class PlaylistItems (
     val kind: String? = null,
     val items: List<Item>,
 )
